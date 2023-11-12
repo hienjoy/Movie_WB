@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(15, 15, 55);
+}
+.movie_box{
+    background-color: rgb(64, 69, 157);
+    width: 250px;
+    margin : 15px;
+    color:white;
+}
+
+.movie_box img{
+    max-width:100%;
+}
+
+.app-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.movie_info{
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px;
+}
