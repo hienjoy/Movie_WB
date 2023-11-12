@@ -1,0 +1,54 @@
+/*body{
+    background-color: rgb(15, 15, 55);
+}*/
+.movie_box{
+    background-color: rgb(64, 69, 157);
+    width: 250px;
+    margin : 15px;
+    color:white;
+}
+
+.movie_box img{
+    max-width:100%;
+}
+
+.app-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.movie_info{
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px;
+}
+
+.header_box{
+    background-color: rgb(27, 27, 42);
+}
+
+.header_contain{
+    height:70px;
+    width:1400px;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+}
+
+.header_contain ul{
+    display:flex;
+    list-style: none;
+
+}
+
+.header_nav{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header_contain li{
+    margin-right:40px;
+}
