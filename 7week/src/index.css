@@ -1,0 +1,129 @@
+/*body{
+    background-color: rgb(15, 15, 55);
+}*/
+.movie_box{
+    background-color: rgb(64, 69, 157);
+    width: 250px;
+    margin : 15px;
+    color:white;
+}
+
+.movie_box img{
+    max-width:100%;
+}
+
+.app-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.movie_info{
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px;
+}
+
+.header_box{
+    background-color: rgb(27, 27, 42);
+    display:flex;
+}
+
+.header_contain{
+    height:70px;
+    width:1400px;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+}
+
+.header_contain ul{
+    display:flex;
+    list-style: none;
+
+}
+
+.header_nav{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header_contain li{
+    margin-right:40px;
+}
+
+.login_set button{
+    width:100px;
+    height:30px;
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+    border:none;
+    font-size: 15px;
+    margin-right:20px;
+    text-decoration: none;
+}
+
+.login_set{
+    font-size:15px;
+    color:white;
+}
+
+.form_name{
+    width:200px;
+    font-size: 20px;
+}
+
+.form_box{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    width:600px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    margin-top:50px;
+    margin-left:250px;
+    justify-content:space-around;
+}
+
+.input_info{
+    height:100px;
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size:13px;
+}
+
+.input_info input{
+    height:50px;
+    border:1px solid gray;
+    border-radius: 5px;
+}
+
+.error_msg{
+    padding-top:5px;
+    color:red;
+}
+
+.light{
+    height:50px;
+    width:95%;
+    border-radius: 50px;
+    border:none;
+    font-size:13px;
+    color:white;
+    background-color: rgb(232, 232, 237);
+}
+
+.deep{
+    height:50px;
+    width:95%;
+    border-radius: 50px;
+    border:none;
+    font-size:13px;
+    color:white;
+    background-color: rgb(33, 33, 35);
+}
